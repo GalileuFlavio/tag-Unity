@@ -1,2 +1,7 @@
-# tag-Unity
-Como encontrar um objeto por sua tag no Unity
+private void OnTriggerEnter(Collider other)
+    {
+       if (other.tag == "Player")
+        {
+            // Do Something
+        }
+    }
